@@ -52,11 +52,11 @@ Module20Challenge
    *    ACTUAL 0 / Predicted 1 = 102 (False Positive)(.0052)
    *    ACTUAL 1 / Predicted 0 = 56 (False Negative) (.0028)
    *    ACTUAL 1 / Predicted 1 = 563 (True Positive) (.0290) - Correct Answer
-##To determine if the the model is accurate and precise the aggregate sums of each column summed across and down equal = 19,384
+##    To determine if the the model is accurate and precise the aggregate sums of each column summed across and down equal = 19,384
 *    RESULTS: This model is considered both accurate and precise.   
  
-##Description of Model 1 Accuracy, Precision, and Recall scores.  
-#A classification report holds the test results so we can assess and evaluate the number of predicted occurrences for each class:
+##   Description of Model 1 Accuracy, Precision, and Recall scores.  
+#    A classification report holds the test results so we can assess and evaluate the number of predicted occurrences for each class:
     *Accuracy is how often the model is correct—the ratio of correctly predicted observations to the total number of observations.
     (TP + TN) / (TP + TN + FP + FN)
     
@@ -65,7 +65,6 @@ Module20Challenge
 
     *Recall is the ratio of correctly predicted positive observations to all predicted observations for that class. 
     TP / (TP + FN) - High recall correlates to a more comprehensive output and a low false negative rate.
-
 
 ## Summary
 
