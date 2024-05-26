@@ -47,23 +47,23 @@ Module20Challenge
     * Description of Model 1 Accuracy, Precision, and Recall scores.
     Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
 
-Confusion Matrix Results:
-   ACTUAL 0 / Predicted 0 = 18663 (True Negative)(.9628) - Correct Answer
-   ACTUAL 0 / Predicted 1 = 102 (False Positive)(.0052)
-   ACTUAL 1 / Predicted 0 = 56 (False Negative) (.0028)
-   ACTUAL 1 / Predicted 1 = 563 (True Positive) (.0290) - Correct Answer
-To determine if the the model is accurate and precise the aggregate sums of each column summed across and down equal = 19,384
-RESULTS: This model is considered both accurate and precise.   
+## Confusion Matrix Results:
+   *ACTUAL 0 / Predicted 0 = 18663 (True Negative)(.9628) - Correct Answer
+   *ACTUAL 0 / Predicted 1 = 102 (False Positive)(.0052)
+   *ACTUAL 1 / Predicted 0 = 56 (False Negative) (.0028)
+   *ACTUAL 1 / Predicted 1 = 563 (True Positive) (.0290) - Correct Answer
+##To determine if the the model is accurate and precise the aggregate sums of each column summed across and down equal = 19,384
+*RESULTS: This model is considered both accurate and precise.   
  
-Description of Model 1 Accuracy, Precision, and Recall scores.  
-A classification report holds the test results so we can assess and evaluate the number of predicted occurrences for each class:
-    Accuracy is how often the model is correct—the ratio of correctly predicted observations to the total number of observations.
+##Description of Model 1 Accuracy, Precision, and Recall scores.  
+#A classification report holds the test results so we can assess and evaluate the number of predicted occurrences for each class:
+    *Accuracy is how often the model is correct—the ratio of correctly predicted observations to the total number of observations.
     (TP + TN) / (TP + TN + FP + FN)
     
-    Precision is the ratio of correctly predicted positive observations to the total predicted positive observations.
+    *Precision is the ratio of correctly predicted positive observations to the total predicted positive observations.
     TP / (TP + FP) - High precision relates to a low false positive rate.
 
-    Recall is the ratio of correctly predicted positive observations to all predicted observations for that class. 
+    *Recall is the ratio of correctly predicted positive observations to all predicted observations for that class. 
     TP / (TP + FN) - High recall correlates to a more comprehensive output and a low false negative rate.
 
 
@@ -81,8 +81,8 @@ Classification Report:
 weighted avg       0.99      0.99      0.99     19384
 
 
-This model was excellent at predicting with a 99% accuracy the likelihood of healthy (0) and high risk (1) labels (loans).
-The precision, recall and f1-score for forecasting healthy loans (0) is extremely high (1.0, .99, 1.0, 18765/19384).
-The precision, recall and f1-score for predicting high-risk loans (1) is high (.85, .91, .88, 619/19384).
+##This model was excellent at predicting with a 99% accuracy the likelihood of healthy (0) and high risk (1) labels (loans).
+##The precision, recall and f1-score for forecasting healthy loans (0) is extremely high (1.0, .99, 1.0, 18765/19384).
+##The precision, recall and f1-score for predicting high-risk loans (1) is high (.85, .91, .88, 619/19384).
 
-The model is more effective at predicting healthy loans than predicting the precision of unhealthy or high-risk loans.
+##The model is more effective at predicting healthy loans than predicting the precision of unhealthy or high-risk loans.  However I would still recommend using the model.
