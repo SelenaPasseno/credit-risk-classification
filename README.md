@@ -48,12 +48,12 @@ Module20Challenge
     Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
 
 ## Confusion Matrix Results:
-   *ACTUAL 0 / Predicted 0 = 18663 (True Negative)(.9628) - Correct Answer
-   *ACTUAL 0 / Predicted 1 = 102 (False Positive)(.0052)
-   *ACTUAL 1 / Predicted 0 = 56 (False Negative) (.0028)
-   *ACTUAL 1 / Predicted 1 = 563 (True Positive) (.0290) - Correct Answer
+   *    ACTUAL 0 / Predicted 0 = 18663 (True Negative)(.9628) - Correct Answer
+   *    ACTUAL 0 / Predicted 1 = 102 (False Positive)(.0052)
+   *    ACTUAL 1 / Predicted 0 = 56 (False Negative) (.0028)
+   *    ACTUAL 1 / Predicted 1 = 563 (True Positive) (.0290) - Correct Answer
 ##To determine if the the model is accurate and precise the aggregate sums of each column summed across and down equal = 19,384
-*RESULTS: This model is considered both accurate and precise.   
+*    RESULTS: This model is considered both accurate and precise.   
  
 ##Description of Model 1 Accuracy, Precision, and Recall scores.  
 #A classification report holds the test results so we can assess and evaluate the number of predicted occurrences for each class:
