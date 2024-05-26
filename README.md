@@ -4,48 +4,42 @@ Module20Challenge
 
 ## Overview of the Analysis
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
-
-* Explain the purpose of the analysis:
-    Puropse of this analysis is to use various techniques to train and evauate a model based on loan risk.
+* The purpose of the analysis:  Puropse of this analysis is to use various techniques to train and evauate a model based on loan risk.
     
-* Explain what financial information the data was on, and what you needed to predict.
-    The financial information used for this analysis is a dataset of historic lending activity from a peer to peer lending service company.
-    Columns include:
-    loan_size
-    interest_rate
-    borrower_income
-    debt_to_income in decimal
-    num_of_accounts
-    derogatory_marks
-    total_debt
-    loan_status
+*   The financial information used for this analysis is a dataset of historic lending activity from a peer to peer lending service company.
+*   The model will use logistic regression to predict both the both the `0` (healthy loan) and `1` (high-risk loan) labels?
+
+    #Columns include:
+    *loan_size
+    *interest_rate
+    *borrower_income
+    *debt_to_income in decimal
+    *num_of_accounts
+    *derogatory_marks
+    *total_debt
+    *loan_status
       
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-    Dependent Variable: loan_status (y)
-    Independent Variables: all other columns (x)
+* Setting the Variables to be:  Dependent Variable: "loan_status" (y) and Independent Variables: "all other columns above" (x)
 
 * Describe the stages of the machine learning process you went through as part of this analysis.
-    Pre-process the data:
-        Reading in the data
-        Separating the data into labels (y) and features (X)
-        Reviewed the y data series and X variables to confirm correct categorization
-        Splite the data into train_test_split and assigned a random_state
-        Created a standard scaler instance
-        Fitted scaler and scaled data
-        Reviewed trained and tested data
-    Step 1: Fit a logistic regression model by using the training data (X_train and y_train)
-            Instigated the model and assigned a parameter of 1 to model
-            Fit logistic regression model using training data
-    Step 2: Saved the predictions on the testing data lables by using testing feature data(X_test) and the fitted model.
-            Made a prediction using the testing data
-    Step 3: Evaluate the model's performance by doing the following
-            Generate a Confusion MatriX
-            Print the Classification Report
-    
-  
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms).
-    Created a logistic regression model with original data
+   # Pre-process the data:
+        #Reading in the data
+        #Separating the data into labels (y) and features (X)
+        #Reviewed the y data series and X variables to confirm correct categorization
+        #Splite the data into train_test_split and assigned a random_state
+        #Created a standard scaler instance
+        #Fitted scaler and scaled data
+        #Reviewed trained and tested data
+    * Step 1: Fit a logistic regression model by using the training data (X_train and y_train)
+            #Instigated the model and assigned a parameter of 1 to model
+            #Fit logistic regression model using training data
+    * Step 2: Saved the predictions on the testing data lables by using testing feature data(X_test) and the fitted model.
+            #Made a prediction using the testing data
+    * Step 3: Evaluate the model's performance by doing the following
+            #Generate a Confusion MatriX
+            #Print the Classification Report
+       
+* Briefly touch on any method you used: Created a logistic regression model with original data
 
 ## Results
 
